@@ -125,8 +125,35 @@
     <script src="js/bootstrap.min.js" ></script>
 
     <script type="text/javascript">
-      $('#btn').click(function(){
-          alert('Все покупка прошла!')
+      $('#pic1').click(function(){
+        $("#image").attr("src","img/1.png");
+      });
+
+      $('#pic2').click(function(){
+        $("#image").attr("src","img/2.png");
+      });
+      $('#pic3').click(function(){
+        $("#image").attr("src","img/3.png");
+      });
+
+      $('#col1').click(function(){
+        $("#text").css("color", "black");
+      });
+      $('#col2').click(function(){
+        $("#text").css("color", "blue");
+      });
+      $('#col3').click(function(){
+        $("#text").css("color", "yellow");
+      });
+
+      $('#size1').click(function(){
+        $("#text").css("font-size", "24pt");
+      });
+      $('#size2').click(function(){
+        $("#text").css("font-size", "36pt");
+      });
+      $('#size3').click(function(){
+        $("#text").css("font-size", "72pt");
       });
     </script>
   </body>
