@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body>
+<!--
+  <nav class="navbar navbar-expand-sm navbar-dark bg-success sticky-top"> 
+   
+      <a class="navbar-brand"  href="#">
+        <img src="img/1.png" width="30" height="30" class="d-inline-block align-top">
+          Наш сайт
+      </a>
+       
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#svertok" >
+        <span class="navbar-toggler-icon"> </span>
+      </button>
+
+    <div class="collapse navbar-collapse" id="svertok">  
+      
+      <ul class="navbar-nav mr-auto text-white">
+
+        <li class="nav-item active dropdown">
+          <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">Купить <span> 
+            <img src="img/2.png" width="30" height="30" class="d-inline-block align-top">
+            </span>
+        </a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item"> Ссылка раз </a>
+              <a href="#" class="dropdown-item"> Ссылка два </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item"> Ссылка три</a>
+            </div>
+
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Продать <span> <img src="img/3.png" width="30" height="30" class="d-inline-block align-top"></span></a>
+        </li>
+       <li class="nav-item">
+          <a href="#" class="nav-link">Еще пункт <span> <img src="img/5.png" width="30" height="30" class="d-inline-block align-top"></span></a>
+        </li>
+               <li class="nav-item">
+          <a href="#" class="nav-link">А это последний пункт <span> <img src="img/iconfinder_piechart_3890939.png" width="30" height="30" class="d-inline-block align-top"></span></a>
+        </li>
+
+        <li class="nav-item btn-info">
+          <a href="#" class="nav-link" id="btn">Точно последний пункт</a>
+        </li>
+      </ul>
+      </div>
+ </nav>
+-->
+ <nav class="navbar sticky-top navbar-dark bg-success navbar-expand-sm">
+      <a class="navbar-brand" href="#">
+        <img src="img\iconfinder_sale_1_3890937.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        Сайт постоянных распродаж
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#IDofMENU" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="IDofMENU">
+        <ul class="navbar-nav mr-auto text-white">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="nDr1" role="button" data-toggle="dropdown" >
+              Выбор картинки
+            </a>
+            <div class="dropdown-menu" aria-labelledby="nDr1">
+              <a id="pic1" class="dropdown-item" href="#">Картинка новостей</a>
+              <a id="pic2" class="dropdown-item" href="#">Картинка корзинки</a>
+              <a id="pic3" class="dropdown-item" href="#">Картинка мешка</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="nDr2" role="button" data-toggle="dropdown" >
+              Выбор цвета
+            </a>
+            <div class="dropdown-menu" aria-labelledby="nDr2">
+              <a id="col1" class="dropdown-item" href="#">Чёрный</a>
+              <a id="col2" class="dropdown-item" href="#">Синий</a>
+              <a id="col3" class="dropdown-item" href="#">Жёлтый</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="nDr3" role="button" data-toggle="dropdown">
+              Выбор размера
+            </a>
+            <div class="dropdown-menu" aria-labelledby="nDr3">
+              <a id="size1" class="dropdown-item" href="#">Малый</a>
+              <a id="size2" class="dropdown-item" href="#">Средний</a>
+              <a id="size3" class="dropdown-item" href="#">Большой</a>
+            </div>
+          </li>
+
+
+
+        </ul>
+
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col justify-content-center">
+          <img id="image" class="" src="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm" >
+          <h1 id="text">Это текст. Повелевайте мною из меню</h1>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js" ></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js" ></script>
+
+    <script type="text/javascript">
+      $('#btn').click(function(){
+          alert('Все покупка прошла!')
+      });
+    </script>
+  </body>
+</html>
